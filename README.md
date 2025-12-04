@@ -1,6 +1,5 @@
-# main2
-
-A new Flutter project.
+# Anime-Verse
+sebagai akhir project dari lab mobile. 
 
 ## Getting Started
 
