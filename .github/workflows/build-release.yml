@@ -110,16 +110,11 @@ jobs:
           files: app-release.apk
           body: |
             ## Anime Verse v${{ needs.build.outputs.version }}
-            
-            ### 📱 Download
+
             Download the APK below and install on your Android device.
-            
-            ### ✨ What's New
+
             - Automated build via GitHub Actions
             - Release signed with production keystore
-            
-            ### 🔒 Security
-            - Signed with release keystore
             - Firebase configured for production
             - Firestore security rules enabled
           draft: false
