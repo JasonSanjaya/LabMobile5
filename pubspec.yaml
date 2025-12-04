@@ -44,6 +44,8 @@ dependencies:
   firebase_auth: ^6.1.2
   google_sign_in: ^7.2.0
   cloud_firestore: ^6.1.0
+  flutter_launcher_icons: ^0.14.4
+  flutter_native_splash: ^2.4.7
 
 dev_dependencies:
   flutter_test:
@@ -117,3 +119,21 @@ fonts:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+# App Icon Configuration
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/images/app_icon.jpg"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/images/app_icon.jpg"
+
+# Splash Screen Configuration
+flutter_native_splash:
+  android: true
+  ios: false
+  web: false
+  color: "#FFFFFF"
+  image: assets/images/splash_screen_icon.jpg
+  android_12:
+    color: "#FFFFFF"
+    image: assets/images/splash_screen_icon.jpg
